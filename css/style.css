@@ -68,14 +68,14 @@ transition: .4;
 }
 .logo {
     margin-left: -31px;
-    padding-top: 5px;
+    padding-top: 4px;
 }
 .menu ul li{
     display: inline-block;
 }
 .menu ul li a{
     font-size: 15px;
-    font-family: 'Open Sans', 'sans-serif' ;
+    font-family: 'Open Sans', sans-serif;
     color:  rgb(0, 195, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -83,7 +83,7 @@ transition: .4;
  line-height: 105px;
  transition: 0.4s;
 }
-.menu ul li a :hover{
+.menu ul li a:hover{
     color: green;
 }
 /* header part  End */
@@ -98,8 +98,8 @@ transition: .4;
     background-position: center;
 }
 .bannerovelay{
-    padding-top: 310px;
-    padding-bottom: 330px;
+    padding-top:200px;
+    padding-bottom: 200 px;
     background: rgba(0, 0, 0, 0.5);   
 }
 .bannercontent{
@@ -134,7 +134,7 @@ transition: .4;
     transition: .4s;
    
 }
-.bannercontent a :hover{
+.bannercontent a:hover{
     color: darkblue;
     background: green;
    
