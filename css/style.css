@@ -6,7 +6,7 @@
 /* All common Css Start */
 ul,ol{
     list-style-type: none;
-}
+} 
 a{
     text-decoration: none;
 }
@@ -99,7 +99,7 @@ transition: .4;
 }
 .bannerovelay{
     padding-top:200px;
-    padding-bottom: 200 px;
+    padding-bottom: 200px;
     background: rgba(0, 0, 0, 0.5);   
 }
 .bannercontent{
@@ -142,8 +142,65 @@ transition: .4;
 /* banner End */
 
 
-/*  Start */
-/*  End */
+/* goal  Start */
+#commmunity{
+ padding-top: 600px;
+ padding-bottom: 160px;
+ background: rgb(0, 195, 255);
+ 
+}
+.cardpart{
+    position: relative;
+}
+.card{
+    position: absolute;
+    top: -686px;
+    left: 0;
+    padding-top: 75px;
+    padding-bottom: 160px;
+    background: white;
+    -webkit-box-shadow: -1px 4px 5px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 5px 3px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 5px 3px rgba(0,0,0,0.75);
+width: 100%;
+}
+.cardtext{
+    text-align: center;
+    font-family:"roboto slab", "serif";
+    font-size: 20px;
+}
+.cardimgs {
+    margin-top: 50px;;
+position: relative;
+display: inline-block;
+margin-bottom: 20px;
+}
+.cardimgs::before{
+position: absolute;
+width: 165px;
+height: 1px;
+background: orange;
+content: "";
+top: 50%;
+left: -175px; 
+}
+.cardimgs::after{
+    position: absolute;
+    width: 165px;
+    height: 1px;
+    background: orange;
+    content: "";
+    top: 50%;
+    right: -175px;
+    transform: translatey(-50%);
+    }
+    .carditempart{
+        display: flex;
+    }
+    .carditem{
+        width: 30%;
+    }
+/* goal End */
 /*  Start */
 /*  End */
 /*  Start */
